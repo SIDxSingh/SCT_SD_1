@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class TemperatureConverter {
 
-    // Celsius conversions
+
     public static double celsiusToFahrenheit(double c) {
         return (c * 9 / 5) + 32;
     }
@@ -11,7 +11,6 @@ public class TemperatureConverter {
         return c + 273.15;
     }
 
-    // Fahrenheit conversions
     public static double fahrenheitToCelsius(double f) {
         return (f - 32) * 5 / 9;
     }
@@ -20,7 +19,7 @@ public class TemperatureConverter {
         return (f - 32) * 5 / 9 + 273.15;
     }
 
-    // Kelvin conversions
+
     public static double kelvinToCelsius(double k) {
         return k - 273.15;
     }
